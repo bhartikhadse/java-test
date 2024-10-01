@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="basic-fw-1">
+  <test thread-count="5" name="LoginTests">
+    <classes>
+      <class name="testcases.TC1"/>
+      <class name="testcases.TC2"/>
+      <class name="base.BaseObjects"/>
+    </classes>
+  </test> <!-- LoginTests -->
+</suite> <!-- learning-suite -->
